@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
 project(secret)
-
+set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
 #I/usr/local/opt/openssl/include -L/usr/local/opt/openssl/lib
 set( OPENSSL_ROOT_DIR "/usr/local/opt/openssl")
 find_package(OpenSSL REQUIRED)
