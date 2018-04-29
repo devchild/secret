@@ -1,7 +1,11 @@
 
 # secret
 Command line tool to encrypt and decrypt key value strings.
+The tool will encrypt the value and let to key as is.
+eg. 
 
+encrypt key=value                       ==> key=x/bdAsomgLWKOx9MMn/LfA==
+decrypt key=x/bdAsomgLWKOx9MMn/LfA==    ==> key=value
 
 **Get started:**
 
